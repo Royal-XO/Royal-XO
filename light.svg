@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-labelledby="title desc" style="--bg0:#F1F5FB;--bg1:#E8EEF7;--panel:#FFFFFF;--line:#D6DFEB;--grid:#64748B;--shadow:#64748B;--text:#101827;--text2:#263B59;--body:#36465C;--muted:#596A80;--quiet:#718096;--violet:#6D28D9;--cyan:#0284C7;--green:#059669;--eyebrow:#5B45B5;--role:#5B45B5;--category:#5543A4;--statusBg:#E8F7EF;--statusText:#047857;--chipViolet:#F1EDFC;--chipCyan:#EAF6FC;--chipGreen:#E8F5EF;--chipTextViolet:#5B3BA5;--chipTextCyan:#17658C;--chipTextGreen:#087650;--iconViolet:#F1EDFC;--iconCyan:#EAF6FC;--iconGreen:#E8F5EF;--buttonPrimary:#182334;--buttonPrimaryText:#FFFFFF;--button:#F6F8FC;--buttonText:#25364C">
+  <title id="title">Ayush Patel — Computer Engineering Student</title>
+  <desc id="desc">Animated profile banner for Ayush Patel, a Computer Engineering student. It features software, hardware and systems engineering themes, a curated developer toolkit, and links to GitHub, LinkedIn, portfolio and email.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--bg0)"/><stop offset="1" stop-color="var(--bg1)"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="var(--violet)" stop-opacity=".72"/><stop offset=".52" stop-color="var(--cyan)" stop-opacity=".42"/><stop offset="1" stop-color="var(--green)" stop-opacity=".56"/></linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop stop-color="var(--text)"/><stop offset=".72" stop-color="var(--text2)"/><stop offset="1" stop-color="var(--cyan)"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="var(--violet)"/><stop offset=".55" stop-color="var(--cyan)"/><stop offset="1" stop-color="var(--green)"/></linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop stop-color="white" stop-opacity="0"/><stop offset=".5" stop-color="white" stop-opacity=".8"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
+    <radialGradient id="glowA"><stop stop-color="var(--violet)" stop-opacity=".22"/><stop offset="1" stop-color="var(--violet)" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB"><stop stop-color="var(--cyan)" stop-opacity=".18"/><stop offset="1" stop-color="var(--cyan)" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="var(--grid)" stroke-width="1"/></pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="20"/></filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="155%"><feDropShadow dx="0" dy="9" stdDeviation="12" flood-color="var(--shadow)" flood-opacity=".18"/></filter>
+    <style>
+      text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      @media (prefers-reduced-motion: reduce) { .css-motion { animation: none !important; } }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1180" height="610" rx="28" fill="url(#bg)"/>
+  <ellipse cx="165" cy="100" rx="395" ry="270" fill="url(#glowA)"/>
+  <ellipse cx="1030" cy="515" rx="390" ry="250" fill="url(#glowB)"/>
+  <rect width="1180" height="610" rx="28" fill="url(#grid)"/>
+  <circle cx="1085" cy="92" r="62" fill="var(--cyan)" opacity=".06" filter="url(#blur)"/>
+  <circle cx="86" cy="532" r="70" fill="var(--violet)" opacity=".07" filter="url(#blur)"/>
+
+  <!-- Terminal-style header -->
+  <rect x="24" y="22" width="1132" height="48" rx="14" fill="var(--panel)" stroke="var(--line)" stroke-opacity=".72"/>
+  <circle cx="48" cy="46" r="5" fill="#FB7185"/><circle cx="67" cy="46" r="5" fill="#FBBF24"/><circle cx="86" cy="46" r="5" fill="#34D399"/>
+  <path d="M111 39h13l-7 7 7 7h-13" fill="none" stroke="var(--muted)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="138" y="51" class="mono" fill="var(--body)" font-size="13" letter-spacing=".5">royal-xo <tspan fill="var(--quiet)">/</tspan> engineering profile</text>
+  <rect x="964" y="33" width="170" height="27" rx="13.5" fill="var(--statusBg)" stroke="var(--green)" stroke-opacity=".36"/>
+  <circle cx="981" cy="46.5" r="3.8" fill="var(--green)"><animate attributeName="opacity" values="1;.38;1" dur="2.2s" repeatCount="indefinite"/><animate attributeName="r" values="3.8;4.8;3.8" dur="2.2s" repeatCount="indefinite"/></circle>
+  <text x="994" y="51" fill="var(--statusText)" font-size="10.5" font-weight="750" letter-spacing="1.05">STUDENT DEVELOPER</text>
+
+  <!-- Identity and engineering focus -->
+  <g>
+    <rect x="64" y="118" width="34" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="110" y="124" fill="var(--eyebrow)" font-size="11.5" font-weight="750" letter-spacing="2.1">COMPUTER ENGINEERING STUDENT</text>
+    <text x="62" y="196" fill="url(#name)" font-size="57" font-weight="760" letter-spacing="-2">Ayush Patel</text>
+    <text x="65" y="233" fill="var(--role)" font-size="19" font-weight="650">Developer <tspan fill="var(--quiet)">·</tspan> Builder <tspan fill="var(--quiet)">·</tspan> Learner</text>
+    <text x="65" y="278" fill="var(--body)" font-size="15">Studying how software and hardware fit together,</text>
+    <text x="65" y="302" fill="var(--body)" font-size="15">and building useful applications along the way.</text>
+
+    <!-- Focus chips -->
+    <g font-size="11.5" font-weight="650">
+      <rect x="64" y="328" width="146" height="28" rx="14" fill="var(--chipViolet)" stroke="var(--violet)" stroke-opacity=".36"/><circle cx="80" cy="342" r="3.2" fill="var(--violet)"/><text x="91" y="346" fill="var(--chipTextViolet)">Software</text>
+      <rect x="219" y="328" width="145" height="28" rx="14" fill="var(--chipCyan)" stroke="var(--cyan)" stroke-opacity=".34"/><circle cx="235" cy="342" r="3.2" fill="var(--cyan)"/><text x="246" y="346" fill="var(--chipTextCyan)">Hardware</text>
+      <rect x="373" y="328" width="148" height="28" rx="14" fill="var(--chipGreen)" stroke="var(--green)" stroke-opacity=".32"/><circle cx="389" cy="342" r="3.2" fill="var(--green)"/><text x="400" y="346" fill="var(--chipTextGreen)">Systems</text>
+    </g>
+  </g>
+
+  <!-- Computer engineering layers diagram -->
+  <g filter="url(#shadow)">
+    <rect x="64" y="379" width="508" height="143" rx="18" fill="var(--panel)" stroke="var(--line)" stroke-opacity=".8"/>
+  </g>
+  <text x="86" y="405" fill="var(--text)" font-size="11.5" font-weight="750" letter-spacing="1.45">COMPUTING, FROM CIRCUITS TO CODE</text>
+  <text x="550" y="405" text-anchor="end" class="mono" fill="var(--quiet)" font-size="9.5">01 — 03</text>
+  <line x1="86" y1="416" x2="550" y2="416" stroke="var(--line)" stroke-opacity=".7"/>
+
+  <!-- Software icon and label -->
+  <g transform="translate(88 433)">
+    <rect x="0" y="0" width="34" height="34" rx="10" fill="var(--iconViolet)"/>
+    <path d="M14 10l-6 7 6 7M20 10l6 7-6 7" fill="none" stroke="var(--violet)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="132" y="448" fill="var(--text)" font-size="12" font-weight="700">SOFTWARE</text>
+  <text x="132" y="466" fill="var(--muted)" font-size="10.5">Applications · APIs</text>
+
+  <!-- Hardware chip icon and label -->
+  <g transform="translate(249 433)">
+    <rect x="0" y="0" width="34" height="34" rx="10" fill="var(--iconCyan)"/>
+    <rect x="9" y="9" width="16" height="16" rx="3" fill="none" stroke="var(--cyan)" stroke-width="1.6"/>
+    <path d="M12 5v4m5-4v4m5-4v4m-10 16v4m5-4v4m5-4v4M5 12h4m-4 5h4m16-5h4m-4 5h4" stroke="var(--cyan)" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <text x="293" y="448" fill="var(--text)" font-size="12" font-weight="700">HARDWARE</text>
+  <text x="293" y="466" fill="var(--muted)" font-size="10.5">Digital logic · devices</text>
+
+  <!-- Systems/network icon and label -->
+  <g transform="translate(414 433)">
+    <rect x="0" y="0" width="34" height="34" rx="10" fill="var(--iconGreen)"/>
+    <path d="M10 12l7-4 7 5v8l-7 4-7-4zM10 12l7 4 7-3M17 16v9" fill="none" stroke="var(--green)" stroke-width="1.4" stroke-linejoin="round"/>
+    <circle cx="10" cy="12" r="2" fill="var(--green)"/><circle cx="17" cy="8" r="2" fill="var(--green)"/><circle cx="24" cy="13" r="2" fill="var(--green)"/><circle cx="17" cy="25" r="2" fill="var(--green)"/>
+  </g>
+  <text x="458" y="448" fill="var(--text)" font-size="12" font-weight="700">SYSTEMS</text>
+  <text x="458" y="466" fill="var(--muted)" font-size="10.5">Networks · OS</text>
+
+  <!-- Animated signal passing through the three layers -->
+  <path d="M104 490H530" fill="none" stroke="url(#accent)" stroke-opacity=".42" stroke-width="1.2" stroke-dasharray="3 8"/>
+  <circle r="3.2" fill="var(--cyan)">
+    <animateMotion path="M104 490H530" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".25;1;.25" dur="5.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2.4" fill="var(--violet)">
+    <animateMotion path="M530 490H104" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".18;.85;.18" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <text x="86" y="507" fill="var(--quiet)" font-size="9.5" letter-spacing=".35">A COMPUTER ENGINEERING PERSPECTIVE</text>
+
+  <!-- Broad developer toolkit panel -->
+  <g filter="url(#shadow)"><rect x="610" y="100" width="540" height="443" rx="20" fill="var(--panel)" stroke="var(--line)" stroke-opacity=".82"/></g>
+  <rect x="611" y="101" width="538" height="2" rx="1" fill="url(#accent)" opacity=".75"/>
+  <text x="640" y="132" fill="var(--text)" font-size="13" font-weight="750" letter-spacing="1.6">DEVELOPER TOOLKIT</text>
+  <text x="640" y="151" fill="var(--muted)" font-size="10.5">A broad ecosystem across software and computer engineering</text>
+  <text x="1120" y="132" text-anchor="end" class="mono" fill="var(--quiet)" font-size="9.5">TOOLS / STACK</text>
+  <line x1="640" y1="164" x2="1120" y2="164" stroke="var(--line)" stroke-opacity=".82"/>
+
+  <!-- Tool categories: broad ecosystem, not a proficiency rating -->
+  <g font-size="10.8">
+    <text x="640" y="188" fill="var(--category)" font-size="9.5" font-weight="750" letter-spacing=".85">LANGUAGES</text>
+    <text x="770" y="188" fill="var(--body)" font-weight="550">C · C++ · Python · Java · TypeScript · Dart · SQL</text>
+    <line x1="640" y1="204" x2="1120" y2="204" stroke="var(--line)" stroke-opacity=".55"/>
+
+    <text x="640" y="231" fill="var(--category)" font-size="9.5" font-weight="750" letter-spacing=".75">WEB + APP</text>
+    <text x="770" y="231" fill="var(--body)" font-weight="550">React · Next.js · Node.js · Flutter · FastAPI · Spring Boot</text>
+    <line x1="640" y1="247" x2="1120" y2="247" stroke="var(--line)" stroke-opacity=".55"/>
+
+    <text x="640" y="274" fill="var(--category)" font-size="9.5" font-weight="750" letter-spacing=".75">DATA STORES</text>
+    <text x="770" y="274" fill="var(--body)" font-weight="550">PostgreSQL · MongoDB · Redis · SQLite</text>
+    <line x1="640" y1="290" x2="1120" y2="290" stroke="var(--line)" stroke-opacity=".55"/>
+
+    <text x="640" y="317" fill="var(--category)" font-size="9.5" font-weight="750" letter-spacing=".55">CLOUD + DEVOPS</text>
+    <text x="770" y="317" fill="var(--body)" font-weight="550">Linux · Docker · Kubernetes · AWS · GCP · GitHub Actions</text>
+    <line x1="640" y1="333" x2="1120" y2="333" stroke="var(--line)" stroke-opacity=".55"/>
+
+    <text x="640" y="360" fill="var(--category)" font-size="9.5" font-weight="750" letter-spacing=".7">TEST + API</text>
+    <text x="770" y="360" fill="var(--body)" font-weight="550">Pytest · Jest · Playwright · Postman · OpenAPI</text>
+    <line x1="640" y1="376" x2="1120" y2="376" stroke="var(--line)" stroke-opacity=".55"/>
+
+    <text x="640" y="403" fill="var(--category)" font-size="9.5" font-weight="750" letter-spacing=".7">EMBEDDED</text>
+    <text x="770" y="403" fill="var(--body)" font-weight="550">Arduino · Raspberry Pi · PlatformIO · KiCad · Verilog</text>
+    <line x1="640" y1="419" x2="1120" y2="419" stroke="var(--line)" stroke-opacity=".55"/>
+
+    <text x="640" y="446" fill="var(--category)" font-size="9.5" font-weight="750" letter-spacing=".65">DEV TOOLS</text>
+    <text x="770" y="446" fill="var(--body)" font-weight="550">Git · GitHub · VS Code · IntelliJ IDEA · Terraform · Grafana</text>
+  </g>
+  <rect x="640" y="468" width="480" height="1" fill="var(--line)" opacity=".76"/>
+  <circle cx="648" cy="493" r="3" fill="var(--green)"><animate attributeName="opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/></circle>
+  <text x="660" y="497" fill="var(--muted)" font-size="10.5" letter-spacing=".4">SOFTWARE  /  CLOUD  /  EMBEDDED  /  SYSTEMS</text>
+
+  <!-- Contact buttons -->
+  <g font-size="11" font-weight="700">
+    <a href="https://github.com/Royal-XO" target="_blank" rel="noopener noreferrer" aria-label="Visit Ayush Patel on GitHub"><title>GitHub profile</title><rect x="64" y="548" width="108" height="36" rx="10" fill="var(--buttonPrimary)"/><text x="118" y="571" text-anchor="middle" fill="var(--buttonPrimaryText)">GitHub ↗</text></a>
+    <a href="https://linkedin.com/in/Patel-Ayush07" target="_blank" rel="noopener noreferrer" aria-label="Connect with Ayush Patel on LinkedIn"><title>LinkedIn profile</title><rect x="182" y="548" width="108" height="36" rx="10" fill="var(--button)" stroke="var(--cyan)" stroke-opacity=".42"/><text x="236" y="571" text-anchor="middle" fill="var(--buttonText)">LinkedIn ↗</text></a>
+    <a href="https://portfolio.royal-x.in" target="_blank" rel="noopener noreferrer" aria-label="Visit Ayush Patel's portfolio"><title>Portfolio</title><rect x="300" y="548" width="108" height="36" rx="10" fill="var(--button)" stroke="var(--violet)" stroke-opacity=".42"/><text x="354" y="571" text-anchor="middle" fill="var(--buttonText)">Portfolio ↗</text></a>
+    <a href="mailto:AyushPatel21007@gmail.com" aria-label="Email Ayush Patel"><title>Email Ayush Patel</title><rect x="418" y="548" width="96" height="36" rx="10" fill="var(--button)" stroke="var(--green)" stroke-opacity=".42"/><text x="466" y="571" text-anchor="middle" fill="var(--buttonText)">Email ↗</text></a>
+  </g>
+
+  <!-- Quiet, looping highlight on the frame -->
+  <rect x="1" y="1" width="1178" height="608" rx="27" fill="none" stroke="url(#edge)" stroke-opacity=".74" stroke-width="1.5"/>
+  <rect x="1" y="1" width="1178" height="608" rx="27" fill="none" stroke="url(#sweep)" stroke-opacity=".68" stroke-width="1.3" pathLength="100" stroke-dasharray="8 92">
+    <animate attributeName="stroke-dashoffset" values="0;-100" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="-180" y="-80" width="100" height="760" fill="url(#sweep)" opacity=".035" transform="rotate(17 590 305)">
+    <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;1480 0" dur="14s" repeatCount="indefinite"/>
+  </rect>
+</svg>
