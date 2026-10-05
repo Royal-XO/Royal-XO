@@ -115,7 +115,7 @@ I'm a **Computer Engineering student** interested in how software, computer visi
 
 ---
 
-## 🐍 GitHub Contributions
+## 🐍 GitHub  Contributions
 
 <p align="center">
   <picture>
