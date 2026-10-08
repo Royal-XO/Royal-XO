@@ -1,8 +1,3 @@
-<!-- ============================================================
-  Personalized for Ayush Patel (github.com/Royal-XO).
-  Keep project and tool descriptions aligned with hands-on work.
-============================================================= -->
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
@@ -14,8 +9,8 @@
 <h1 align="center">Hi, I'm Ayush Patel 👋</h1>
 
 <p align="center">
-  <b>Computer Engineering Student · Developer</b><br>
-  Learning by building across software, computer vision, and connected systems.
+  <b>Computer Engineering Student · Developer · Competitive Programmer</b><br>
+  Building practical systems across software, automation, computer vision, and connected systems.
 </p>
 
 <p align="center">
@@ -45,12 +40,9 @@
 
 ## 🧭 About
 
-I'm a **Computer Engineering student** interested in how software, computer vision, and hardware can work together to solve practical problems. I enjoy learning by building projects and exploring the systems behind them.
+**Computer Engineering Student who loves building things.** ⚡
 
-- 🎓 **Studying:** Computer Engineering
-- 🔭 **Building:** A YOLOv8 ambulance-detection model with Arduino integration, and a deepfake-detection model
-- 🌱 **Exploring:** Computer vision, embedded systems, Python development, and cloud platforms
-- 🏅 **Participant:** Smart India Hackathon 2026
+Interested in **Competitive Programming, automation, computer vision, backend systems, and hardware** — learning by turning ideas into working projects.
 
 ---
 
@@ -58,10 +50,10 @@ I'm a **Computer Engineering student** interested in how software, computer visi
 
 | Project | Focus | Technologies |
 |---|---|---|
-| **Ambulance Detection + Arduino Integration** | YOLOv8-based ambulance detection paired with an Arduino hardware setup. | Python, YOLOv8, Arduino |
-| **Deepfake Detection Model** | A model-focused project exploring how to identify manipulated media. | Python, machine learning, media analysis |
+| **Advanced Telegram Automation & Commerce Bot** | An automated Telegram-based commerce system where users can browse products/services, place orders, complete the payment flow, and receive their purchase automatically. The backend manages user interactions, order creation, payment processing and verification, transaction status, and automated fulfillment with minimal manual intervention. | Python, Telegram Bot API, Aiogram, REST APIs, Async Programming, Payment Integration |
+| **Ambulance Detection + Arduino Integration** | YOLOv8-based ambulance detection paired with an Arduino hardware setup. The computer-vision system identifies emergency vehicles and connects detection results with a hardware response workflow. | Python, YOLOv8, Arduino |
+| **Deepfake Detection Model** | A model-focused project exploring techniques for identifying manipulated or synthetic media using machine-learning and media-analysis approaches. | Python, Machine Learning, Media Analysis |
 
-<!-- Add public repository links to these project names when the repositories are available. -->
 
 ---
 
@@ -83,8 +75,10 @@ I'm a **Computer Engineering student** interested in how software, computer visi
 - ✅ **Kaggle** — Notebooks, datasets, and competitions.
 - ✅ **Streamlit** — Quick interactive prototypes and lightweight app interfaces.
 - ✅ **FastAPI** — Python APIs and backend services.
-- ✅ **YOLOv8** — Object-detection tooling for the ambulance-detection project.
-- ✅ **Arduino** — Hardware integration and prototyping for the detection project.
+- ✅ **YOLOv8** — Object-detection tooling for computer-vision projects.
+- ✅ **Arduino** — Hardware integration and prototyping.
+- ✅ **Telegram Bot API / Aiogram** — Asynchronous Telegram bot development and automation.
+- ✅ **REST APIs & Payment Integration** — Backend integrations for transaction and order workflows.
 - ✅ **Cloudflare** — Web and domain infrastructure setup.
 - ✅ **Microsoft Azure** — Cloud and virtual-machine infrastructure.
 - ✅ **Git & GitHub** — Version control and project hosting.
@@ -98,6 +92,7 @@ I'm a **Computer Engineering student** interested in how software, computer visi
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Royal-XO&amp;show_icons=true&amp;hide_border=true&amp;rank_icon=github&amp;theme=github_dark">
     <img src="https://github-readme-stats.vercel.app/api?username=Royal-XO&amp;show_icons=true&amp;hide_border=true&amp;rank_icon=github&amp;theme=default" alt="GitHub overview for Royal-XO" width="49%" loading="lazy">
   </picture>
+
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Royal-XO&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;theme=github_dark">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Royal-XO&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;theme=default" alt="Most used languages in Royal-XO's public repositories" width="49%" loading="lazy">
@@ -115,7 +110,7 @@ I'm a **Computer Engineering student** interested in how software, computer visi
 
 ---
 
-## 🐍 GitHub  Contributions
+## 🐍 GitHub Contributions
 
 <p align="center">
   <picture>
